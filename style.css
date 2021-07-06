@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding-top:800px;
+}
+p{
+    margin:25px auto;
+    font-size:17px;
+    line-height:1.3;
+    max-width:450px;
+}
+.Line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+}
+#Bio{
+    padding:50px;
+    text-align:center;
+    font-size:42px;
+}
+#Welcome{
+    position:absolute;
+    height:800px;
+    color:white;
+    background:linear-gradient(#03fcca 0%, #0377fc 100%);
+    opacity:0.83;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    display:table;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    z-index:9;
+}
+#Profile{
+    width:175px;
+    margin-bottom:50px;
+    border-radius:50%;
+}
+.FirstPara{
+    position:relative;
+    text-align:center;
+    vertical-align:middle;
+    display:table-cell;
+}
+.Links{
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    float:left;
+}
+.Menu{
+    font-family: 'Quicksand', sans-serif;
+    font-size:25px;
+    position:absolute;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    z-index:10;
+    list-style:none;
+}
+.Links:hover{
+    background-color:cornflowerblue;
+    
+}
+#TimSir{
+    font-family: 'Bebas Neue', cursive;
+    font-size:30px;
+    line-height:1.2;
+}
